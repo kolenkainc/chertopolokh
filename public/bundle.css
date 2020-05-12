@@ -1,0 +1,38 @@
+.farewell.svelte-yorr04.svelte-yorr04{font-family:Academy;width:100%;height:100%;position:fixed;top:0;left:0;display:flex;align-items:center;align-content:center;justify-content:center;overflow:auto;text-align:justify}.farewell.svelte-yorr04 .child.svelte-yorr04{max-width:600px}.farewell.svelte-yorr04 .title.svelte-yorr04{text-align:center;font-size:42px}.farewell.svelte-yorr04 .image-content.svelte-yorr04{display:flex;align-items:center;justify-content:center}.farewell.svelte-yorr04 .image-content .smile-image.svelte-yorr04{background-image:url(d306cea7e201578caaf2a142435da04e.jpg);background-size:contain;background-repeat:no-repeat;height:150px;width:252.63158px}.farewell.svelte-yorr04 .description.svelte-yorr04{font-size:16px;text-indent:8px;margin:16px}.farewell.svelte-yorr04 .team.svelte-yorr04{text-align:right;font-size:16px}@media(min-width: 768px){.farewell.svelte-yorr04 .title.svelte-yorr04{font-size:60px}.farewell.svelte-yorr04 .description.svelte-yorr04{font-size:20px;text-indent:20px;margin:20px}.farewell.svelte-yorr04 .image-content .smile-image.svelte-yorr04{height:300px;width:505.26316px}.farewell.svelte-yorr04 .team.svelte-yorr04{font-size:20px}}
+@font-face{font-family:'Academy';src:url(af747454b8ee40e773dc4f481e12bfa4.svg) format("svg");src:url(8339a2b56c841a66ba27459e1378ee7b.ttf) format("truetype");font-weight:normal;font-style:normal}.container.svelte-1vz2zs1{background-color:#fafafa;display:flex;flex-direction:column;flex:1 1 100%;justify-content:flex-start;align-items:center;min-height:100vh}
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
