@@ -12,12 +12,12 @@ script:
 
 deploy:
   provider: pages
-  github-token: $GITHUB_OAUTH_TOKEN  # Set in the settings page of your repository, as a secure variable
-  committer-from-gh: true
-  skip-cleanup: true
-  keep-history: true
-  local-dir: public
+  token: $GITHUB_OAUTH_TOKEN  # Set in the settings page of your repository, as a secure variable
+  committer_from_gh: true
+  cleanup: true
+  keep_history: true
+  local_dir: public
   repo: kolenkainc/chertopolokh_build
-  target-branch: master
+  target_branch: master
   on:
     branch: master
