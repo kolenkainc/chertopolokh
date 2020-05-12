@@ -9,6 +9,7 @@ cache:
 script:
   # - yarn test
   - yarn build
+  - echo chertopolokh.ru > public/CNAME
 
 deploy:
   provider: pages
