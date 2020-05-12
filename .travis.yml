@@ -12,7 +12,7 @@ script:
 
 deploy:
   provider: pages
-  token: $GITHUB_OAUTH_TOKEN  # Set in the settings page of your repository, as a secure variable
+  token: $GITHUB_AUTH_TOKEN  # Set in the settings page of your repository, as a secure variable
   committer_from_gh: true
   cleanup: true
   keep_history: true
