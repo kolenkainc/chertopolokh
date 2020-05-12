@@ -15,7 +15,7 @@ deploy:
   provider: pages
   token: $GITHUB_AUTH_TOKEN  # Set in the settings page of your repository, as a secure variable
   committer_from_gh: true
-  cleanup: true
+  cleanup: false
   keep_history: true
   local_dir: public
   repo: kolenkainc/chertopolokh_build
