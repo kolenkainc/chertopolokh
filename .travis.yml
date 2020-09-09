@@ -18,7 +18,7 @@ deploy:
   skip_cleanup: true
   keep_history: true
   local_dir: public
-  repo: kolenkainc/chertopolokh_build
+  repo: kolenkainc/chertopolokh.release
   target_branch: master
   on:
     branch: master
