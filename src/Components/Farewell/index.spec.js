@@ -13,26 +13,26 @@ describe('Sample', () => {
 
     it('duration about half year', () => {
         const time = calculateDuration(new Date('2020-05-01T03:03:03'));
-        expect(time).toBe('этого полугодия');
+        expect(time).toBe('закончилось полгода назад');
     });
 
     it('duration about one year', () => {
         const time = calculateDuration(new Date('2020-12-01T03:03:03'));
-        expect(time).toBe('этого года');
+        expect(time).toBe('закончилось год назад');
     });
 
     it('duration about one and half year', () => {
         const time = calculateDuration(new Date('2021-05-01T03:03:03'));
-        expect(time).toBe('этих полутора лет');
+        expect(time).toBe('закончилось полтора года назад');
     });
 
     it('duration about two years', () => {
         const time = calculateDuration(new Date('2021-12-01T03:03:03'));
-        expect(time).toBe('этих двух лет');
+        expect(time).toBe('закончилось два года назад');
     });
 
-    it('duration about more than 3 years', () => {
+    it('duration about more than 2 years', () => {
         const time = calculateDuration(new Date('2022-12-01T03:03:03'));
-        expect(time).toBe('этих лет');
+        expect(time).toBe('закончилось больше двух лет назад');
     });
 });
