@@ -1,6 +1,6 @@
 import Farewell from './index.svelte';
 import { render } from '@testing-library/svelte'
-import { calculateDuration } from './index.js';
+import { calculateDuration } from './duration.js';
 
 describe('Sample', () => {
     it('renders without failing', () => {
