@@ -61,7 +61,7 @@
     "@babel/polyfill": "^7.10.1",
     "babel-plugin-inline-dotenv": "^1.5.0",
     "es6-promise": "^4.2.8",
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "query-string": "^5.1.1",
     "whatwg-fetch": "^3.0.0"
   }
