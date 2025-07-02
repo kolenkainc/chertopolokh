@@ -1,34 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="farewell">
+      <div className="child">
+        <div className="title">Чертополох</div>
+        <div className="image-content">
+          <div className="smile-image"></div>
+        </div>
+        <div className="description">
+          <p>Весной 2019 году мы попробовали сделать штуку, которая показала как можно недорого и удобно для всех (зрителей / контролеров / организаторов) продавать билеты на концерты.</p>
+          <p>Нам кажется, что у нас получилось!</p>
+          <p>Чтобы развиваться дальше нужно развивать сервис. К&nbspсожалению, сейчас мы не видим большой выгоды в его развитии — поэтому временно закрываем проект.</p>
+          <p>Возможно мы будем периодически открывать продажи билетов на какие-то специальные мероприятия.</p>
+          <p>Но как итог того, что давно закончилось — хочется сердечно поблагодарить всех, кто не боялся покупать электронные билеты и писал в техподдержку. Нашей команде правда очень жаль расставаться со всеми вами!</p>
+          <div className="team">
+            <p>Команда Kolenka Inc.</p>
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
