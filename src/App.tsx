@@ -6,7 +6,7 @@ function App() {
       <div className="child">
         <div className="title">Чертополох</div>
         <div className="image-content">
-          <img className="smile-image" src="/kim.jpg"/>
+          <img className="smile-image" src="/chertopolokh/kim.jpg"/>
         </div>
         <div className="description">
           <p>Весной 2019 году мы попробовали сделать штуку, которая показала как можно недорого и удобно для всех (зрителей / контролеров / организаторов) продавать билеты на концерты.</p>
